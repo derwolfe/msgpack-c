@@ -25,3 +25,5 @@ cp -r include/gtest ${BASE}/usr/include
 mkdir -p ${BASE}/usr/lib
 mv *.a ${BASE}/usr/lib
 cd ..
+
+ci/build_cmake.sh
